@@ -1,0 +1,48 @@
+/*
+1px = 0.07500019em for IE6;
+1px = 0.07692308em for other browsers.
+*/
+@import url(yui-reset-fonts-2.9.0.css);
+
+@import url(../base/styles.css);
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+body {	
+	margin: 0;
+}
+
+* { 
+    outline-color: #ffc; /* Prevents Chrome 32 blue color */
+}
+
+select {
+	border-radius: 1px; /* Prevents Chrome 32 background gradient */
+}
+
+.mkp-background {
+	background: white url("img/pageBG.png") repeat-x;
+}
+
+.mkp-logo-wrapper {
+	background: transparent url("img/pageBG.png") no-repeat;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="default">
+	<target name="default">
+		<delete dir="build" />
+		<mkdir dir="build" />
+		<zip destfile="build/t4j-wtk.jar">
+			<fileset dir="../bin" />
+			<fileset dir="../src">
+				<include name="**/*.java" />
+			</fileset>
+		</zip>
+	</target>
+</project>

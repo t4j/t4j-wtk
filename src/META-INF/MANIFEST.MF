@@ -1,0 +1,175 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: javax.servlet; version="2.3.0",javax.servlet.http; ver
+ sion="2.3.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Vaadin-Package-Version: 1
+Export-Package: VAADIN;version="6.8.13", VAADIN.themes;version="6.8.13
+ ", VAADIN.themes.base;version="6.8.13", VAADIN.themes.base.absolutela
+ yout;version="6.8.13", VAADIN.themes.base.accordion;version="6.8.13",
+  VAADIN.themes.base.button;version="6.8.13", VAADIN.themes.base.capti
+ on;version="6.8.13", VAADIN.themes.base.common;version="6.8.13", VAAD
+ IN.themes.base.common.img;version="6.8.13", VAADIN.themes.base.csslay
+ out;version="6.8.13", VAADIN.themes.base.customcomponent;version="6.8
+ .13", VAADIN.themes.base.customlayout;version="6.8.13", VAADIN.themes
+ .base.datefield;version="6.8.13", VAADIN.themes.base.dragwrapper;vers
+ ion="6.8.13", VAADIN.themes.base.embedded;version="6.8.13", VAADIN.th
+ emes.base.formlayout;version="6.8.13", VAADIN.themes.base.gridlayout;
+ version="6.8.13", VAADIN.themes.base.link;version="6.8.13", VAADIN.th
+ emes.base.loginform;version="6.8.13", VAADIN.themes.base.menubar;vers
+ ion="6.8.13", VAADIN.themes.base.menubar.img;version="6.8.13", VAADIN
+ .themes.base.notification;version="6.8.13", VAADIN.themes.base.ordere
+ dlayout;version="6.8.13", VAADIN.themes.base.panel;version="6.8.13", 
+ VAADIN.themes.base.popupview;version="6.8.13", VAADIN.themes.base.pro
+ gressindicator;version="6.8.13", VAADIN.themes.base.select;version="6
+ .8.13", VAADIN.themes.base.shadow;version="6.8.13", VAADIN.themes.bas
+ e.shadow.img;version="6.8.13", VAADIN.themes.base.slider;version="6.8
+ .13", VAADIN.themes.base.splitpanel;version="6.8.13", VAADIN.themes.b
+ ase.table;version="6.8.13", VAADIN.themes.base.tabsheet;version="6.8.
+ 13", VAADIN.themes.base.textfield;version="6.8.13", VAADIN.themes.bas
+ e.textfield.img;version="6.8.13", VAADIN.themes.base.tree;version="6.
+ 8.13", VAADIN.themes.base.tree.img;version="6.8.13", VAADIN.themes.ba
+ se.treetable;version="6.8.13", VAADIN.themes.base.treetable.img;versi
+ on="6.8.13", VAADIN.themes.base.upload;version="6.8.13", VAADIN.theme
+ s.base.window;version="6.8.13", VAADIN.themes.base.window.img;version
+ ="6.8.13", VAADIN.themes.base.window.img.shadow;version="6.8.13", VAA
+ DIN.themes.chameleon;version="6.8.13", VAADIN.themes.chameleon.common
+ ;version="6.8.13", VAADIN.themes.chameleon.components;version="6.8.13
+ ", VAADIN.themes.chameleon.components.accordion;version="6.8.13", VAA
+ DIN.themes.chameleon.components.button;version="6.8.13", VAADIN.theme
+ s.chameleon.components.datefield;version="6.8.13", VAADIN.themes.cham
+ eleon.components.label;version="6.8.13", VAADIN.themes.chameleon.comp
+ onents.menubar;version="6.8.13", VAADIN.themes.chameleon.components.n
+ otification;version="6.8.13", VAADIN.themes.chameleon.components.pane
+ l;version="6.8.13", VAADIN.themes.chameleon.components.popupview;vers
+ ion="6.8.13", VAADIN.themes.chameleon.components.progressindicator;ve
+ rsion="6.8.13", VAADIN.themes.chameleon.components.selects;version="6
+ .8.13", VAADIN.themes.chameleon.components.slider;version="6.8.13", V
+ AADIN.themes.chameleon.components.splitpanel;version="6.8.13", VAADIN
+ .themes.chameleon.components.table;version="6.8.13", VAADIN.themes.ch
+ ameleon.components.tabsheet;version="6.8.13", VAADIN.themes.chameleon
+ .components.textfield;version="6.8.13", VAADIN.themes.chameleon.compo
+ nents.tree;version="6.8.13", VAADIN.themes.chameleon.components.windo
+ w;version="6.8.13", VAADIN.themes.chameleon.compound;version="6.8.13"
+ , VAADIN.themes.chameleon.compound.segment;version="6.8.13", VAADIN.t
+ hemes.chameleon.compound.sidebar-menu;version="6.8.13", VAADIN.themes
+ .chameleon.compound.toolbar;version="6.8.13", VAADIN.themes.chameleon
+ .icons;version="6.8.13", VAADIN.themes.chameleon.img;version="6.8.13"
+ , VAADIN.themes.liferay;version="6.8.13", VAADIN.themes.liferay.accor
+ dion;version="6.8.13", VAADIN.themes.liferay.button;version="6.8.13",
+  VAADIN.themes.liferay.common;version="6.8.13", VAADIN.themes.liferay
+ .contextmenu;version="6.8.13", VAADIN.themes.liferay.datefield;versio
+ n="6.8.13", VAADIN.themes.liferay.formlayout;version="6.8.13", VAADIN
+ .themes.liferay.menubar;version="6.8.13", VAADIN.themes.liferay.notif
+ ication;version="6.8.13", VAADIN.themes.liferay.panel;version="6.8.13
+ ", VAADIN.themes.liferay.popupview;version="6.8.13", VAADIN.themes.li
+ feray.progressindicator;version="6.8.13", VAADIN.themes.liferay.selec
+ t;version="6.8.13", VAADIN.themes.liferay.slider;version="6.8.13", VA
+ ADIN.themes.liferay.splitpanel;version="6.8.13", VAADIN.themes.lifera
+ y.table;version="6.8.13", VAADIN.themes.liferay.tabsheet;version="6.8
+ .13", VAADIN.themes.liferay.textfield;version="6.8.13", VAADIN.themes
+ .liferay.tree;version="6.8.13", VAADIN.themes.liferay.window;version=
+ "6.8.13", VAADIN.themes.reindeer;version="6.8.13", VAADIN.themes.rein
+ deer.a-sprite-definitions;version="6.8.13", VAADIN.themes.reindeer.ac
+ cordion;version="6.8.13", VAADIN.themes.reindeer.button;version="6.8.
+ 13", VAADIN.themes.reindeer.button.img;version="6.8.13", VAADIN.theme
+ s.reindeer.button.img.black;version="6.8.13", VAADIN.themes.reindeer.
+ common;version="6.8.13", VAADIN.themes.reindeer.common.icons;version=
+ "6.8.13", VAADIN.themes.reindeer.common.img;version="6.8.13", VAADIN.
+ themes.reindeer.datefield;version="6.8.13", VAADIN.themes.reindeer.da
+ tefield.img;version="6.8.13", VAADIN.themes.reindeer.formlayout;versi
+ on="6.8.13", VAADIN.themes.reindeer.label;version="6.8.13", VAADIN.th
+ emes.reindeer.layouts;version="6.8.13", VAADIN.themes.reindeer.layout
+ s.img;version="6.8.13", VAADIN.themes.reindeer.link;version="6.8.13",
+  VAADIN.themes.reindeer.menubar;version="6.8.13", VAADIN.themes.reind
+ eer.menubar.img;version="6.8.13", VAADIN.themes.reindeer.notification
+ ;version="6.8.13", VAADIN.themes.reindeer.notification.img;version="6
+ .8.13", VAADIN.themes.reindeer.panel;version="6.8.13", VAADIN.themes.
+ reindeer.popupview;version="6.8.13", VAADIN.themes.reindeer.progressi
+ ndicator;version="6.8.13", VAADIN.themes.reindeer.progressindicator.i
+ mg;version="6.8.13", VAADIN.themes.reindeer.select;version="6.8.13", 
+ VAADIN.themes.reindeer.select.img;version="6.8.13", VAADIN.themes.rei
+ ndeer.select.img.black;version="6.8.13", VAADIN.themes.reindeer.slide
+ r;version="6.8.13", VAADIN.themes.reindeer.slider.img;version="6.8.13
+ ", VAADIN.themes.reindeer.splitpanel;version="6.8.13", VAADIN.themes.
+ reindeer.splitpanel.img;version="6.8.13", VAADIN.themes.reindeer.tabl
+ e;version="6.8.13", VAADIN.themes.reindeer.table.img;version="6.8.13"
+ , VAADIN.themes.reindeer.tabsheet;version="6.8.13", VAADIN.themes.rei
+ ndeer.tabsheet.img;version="6.8.13", VAADIN.themes.reindeer.tabsheet.
+ img.bar;version="6.8.13", VAADIN.themes.reindeer.tabsheet.img.framed;
+ version="6.8.13", VAADIN.themes.reindeer.textfield;version="6.8.13", 
+ VAADIN.themes.reindeer.textfield.img;version="6.8.13", VAADIN.themes.
+ reindeer.tree;version="6.8.13", VAADIN.themes.reindeer.tree.img;versi
+ on="6.8.13", VAADIN.themes.reindeer.window;version="6.8.13", VAADIN.t
+ hemes.reindeer.window.img;version="6.8.13", VAADIN.themes.reindeer.wi
+ ndow.img.black;version="6.8.13", VAADIN.themes.runo;version="6.8.13",
+  VAADIN.themes.runo.absolutelayout;version="6.8.13", VAADIN.themes.ru
+ no.accordion;version="6.8.13", VAADIN.themes.runo.accordion.img;versi
+ on="6.8.13", VAADIN.themes.runo.button;version="6.8.13", VAADIN.theme
+ s.runo.button.img;version="6.8.13", VAADIN.themes.runo.caption;versio
+ n="6.8.13", VAADIN.themes.runo.common;version="6.8.13", VAADIN.themes
+ .runo.common.img;version="6.8.13", VAADIN.themes.runo.datefield;versi
+ on="6.8.13", VAADIN.themes.runo.datefield.img;version="6.8.13", VAADI
+ N.themes.runo.formlayout;version="6.8.13", VAADIN.themes.runo.gridlay
+ out;version="6.8.13", VAADIN.themes.runo.icons;version="6.8.13", VAAD
+ IN.themes.runo.icons.16;version="6.8.13", VAADIN.themes.runo.icons.32
+ ;version="6.8.13", VAADIN.themes.runo.icons.64;version="6.8.13", VAAD
+ IN.themes.runo.label;version="6.8.13", VAADIN.themes.runo.link;versio
+ n="6.8.13", VAADIN.themes.runo.menubar;version="6.8.13", VAADIN.theme
+ s.runo.notification;version="6.8.13", VAADIN.themes.runo.notification
+ .img;version="6.8.13", VAADIN.themes.runo.orderedlayout;version="6.8.
+ 13", VAADIN.themes.runo.panel;version="6.8.13", VAADIN.themes.runo.pa
+ nel.img;version="6.8.13", VAADIN.themes.runo.popupview;version="6.8.1
+ 3", VAADIN.themes.runo.progressindicator;version="6.8.13", VAADIN.the
+ mes.runo.progressindicator.img;version="6.8.13", VAADIN.themes.runo.s
+ elect;version="6.8.13", VAADIN.themes.runo.select.img;version="6.8.13
+ ", VAADIN.themes.runo.shadow;version="6.8.13", VAADIN.themes.runo.sha
+ dow.img;version="6.8.13", VAADIN.themes.runo.slider;version="6.8.13",
+  VAADIN.themes.runo.slider.img;version="6.8.13", VAADIN.themes.runo.s
+ plitpanel;version="6.8.13", VAADIN.themes.runo.splitpanel.img;version
+ ="6.8.13", VAADIN.themes.runo.table;version="6.8.13", VAADIN.themes.r
+ uno.table.img;version="6.8.13", VAADIN.themes.runo.tabsheet;version="
+ 6.8.13", VAADIN.themes.runo.tabsheet.img;version="6.8.13", VAADIN.the
+ mes.runo.textfield;version="6.8.13", VAADIN.themes.runo.textfield.img
+ ;version="6.8.13", VAADIN.themes.runo.tree;version="6.8.13", VAADIN.t
+ hemes.runo.tree.img;version="6.8.13", VAADIN.themes.runo.tree.img.con
+ nectors;version="6.8.13", VAADIN.themes.runo.window;version="6.8.13",
+  VAADIN.themes.runo.window.img;version="6.8.13", VAADIN.themes.runo.w
+ indow.img.dialog;version="6.8.13", VAADIN.themes.runo.window.img.shad
+ ow;version="6.8.13", VAADIN.widgetsets;version="6.8.13", VAADIN.widge
+ tsets.com.vaadin.terminal.gwt.DefaultWidgetSet;version="6.8.13", VAAD
+ IN.widgetsets.com.vaadin.terminal.gwt.DefaultWidgetSet.ie6pngfix;vers
+ ion="6.8.13", com.google.gwt.dom.client;version="6.8.13", com.vaadin;
+ version="6.8.13", com.vaadin.annotations;version="6.8.13", com.vaadin
+ .data;version="6.8.13", com.vaadin.data.util;version="6.8.13", com.va
+ adin.data.util.filter;version="6.8.13", com.vaadin.data.util.sqlconta
+ iner;version="6.8.13", com.vaadin.data.util.sqlcontainer.connection;v
+ ersion="6.8.13", com.vaadin.data.util.sqlcontainer.query;version="6.8
+ .13", com.vaadin.data.util.sqlcontainer.query.generator;version="6.8.
+ 13", com.vaadin.data.util.sqlcontainer.query.generator.filter;version
+ ="6.8.13", com.vaadin.data.validator;version="6.8.13", com.vaadin.eve
+ nt;version="6.8.13", com.vaadin.event.dd;version="6.8.13", com.vaadin
+ .event.dd.acceptcriteria;version="6.8.13", com.vaadin.service;version
+ ="6.8.13", com.vaadin.terminal;version="6.8.13", com.vaadin.terminal.
+ gwt.client;version="6.8.13", com.vaadin.terminal.gwt.client.ui;versio
+ n="6.8.13", com.vaadin.terminal.gwt.client.ui.dd;version="6.8.13", co
+ m.vaadin.terminal.gwt.client.ui.layout;version="6.8.13", com.vaadin.t
+ erminal.gwt.client.ui.richtextarea;version="6.8.13", com.vaadin.termi
+ nal.gwt.server;version="6.8.13", com.vaadin.terminal.gwt.widgetsetuti
+ ls;version="6.8.13", com.vaadin.tools;version="6.8.13", com.vaadin.ui
+ ;version="6.8.13", com.vaadin.ui.themes;version="6.8.13", com.vaadin.
+ ui.treetable;version="6.8.13", com.vaadin.util;version="6.8.13"
+Vaadin-Widgetsets: com.vaadin.terminal.gwt.DefaultWidgetSet
+Bundle-Version: 6.8.13
+Implementation-URL: http://vaadin.com
+GWT-Version-Dependencies: validation-api-1.0.0.GA.jar, validation-api-
+ 1.0.0.GA-sources.jar
+Bundle-Name: Vaadin
+Ant-Version: Apache Ant 1.8.2
+Bundle-Vendor: Vaadin Ltd
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.vaadin
+Implementation-Version: 6.8.13
+GWT-Version: 2.3.0
+Implementation-Vendor: Vaadin Ltd
+
