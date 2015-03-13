@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 public class T4JKeyValuePair implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; // 123
 
 	private Serializable key;
 
